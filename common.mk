@@ -28,7 +28,7 @@ PRODUCT_VENDOR_MOVE_ENABLED := true
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-mokee
+    $(LOCAL_PATH)/overlay-lineage
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -223,7 +223,7 @@ PRODUCT_PACKAGES += \
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.mokee.livedisplay@2.0-service-sdm
+    vendor.lineage.livedisplay@2.0-service-sdm
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -318,7 +318,7 @@ PRODUCT_PACKAGES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.mokee.touch@1.0-service.smartisan
+    vendor.lineage.touch@1.0-service.smartisan
 
 # USB
 PRODUCT_PACKAGES += \
@@ -332,7 +332,7 @@ PRODUCT_COPY_FILES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.0-service.mokee
+    android.hardware.vibrator@1.0-service.lineage
 
 # VNDK-SP:
 PRODUCT_PACKAGES += \
